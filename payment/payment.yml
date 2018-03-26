@@ -1,0 +1,14 @@
+server:
+  port: 9115
+  contextPath: /payment-service
+logging:
+  file: d://temp/payment-service.log
+security:
+  basic:
+    enabled: false
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
