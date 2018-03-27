@@ -1,5 +1,5 @@
 server:
-  port: 9116
+  port: 9115
   contextPath: /payment-service
 logging:
   file: d://temp/payment-service.log
