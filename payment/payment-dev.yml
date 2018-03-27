@@ -12,3 +12,17 @@ spring:
     port: 5672
     username: guest
     password: guest
+security:
+  basic:
+    enabled: false
+  oauth2:
+    resource:
+      jwt:
+        keyUri: http://localhost:8085/auth/oauth/token_key
+config:
+    oauth2:
+        client-id: service-account-1
+        client-secret: service-account-1-secret
+        access-token-url: http://localhost:8085/auth/oauth/token
+        userAuthorizationUri: http://localhost:8085/auth/oauth/authorize
+        resourceURI: http://localhost:8085/payment-service/
