@@ -1,6 +1,6 @@
 server:
-  port: 9220
-  contextPath: /ofac-service1
+  port: 9226
+  contextPath: /ofac-service2
 logging:
   file: c://temp/ofac-service.log
 security:
