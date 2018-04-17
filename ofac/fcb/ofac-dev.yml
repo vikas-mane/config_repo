@@ -1,4 +1,5 @@
 server:
+  port: 9023
   contextPath: /ofac-service
 logging:
   file: c://temp/ofac-service.log
